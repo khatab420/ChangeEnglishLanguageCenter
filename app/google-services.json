@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "1071301865754",
+    "firebase_url": "https://fir-test-activity-693ab-default-rtdb.firebaseio.com",
+    "project_id": "fir-test-activity-693ab",
+    "storage_bucket": "fir-test-activity-693ab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1071301865754:android:f8d10631c2eb2d77d37ca3",
+        "android_client_info": {
+          "package_name": "com.khataab.changeenglishlanguagecenter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkwEVg25t17VgbPVlu3Osxt18DyePE-UQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1071301865754:android:3ee7646657d17542d37ca3",
+        "android_client_info": {
+          "package_name": "com.lighteast.khataab.firebasetest_activity"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkwEVg25t17VgbPVlu3Osxt18DyePE-UQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

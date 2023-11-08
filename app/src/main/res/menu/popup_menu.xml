@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Listening"
+        android:id="@+id/menu_listening"
+        app:showAsAction="ifRoom"
+        android:layout="@layout/custom_popup_menu_item"
+        />
+    <item android:title="Reading"
+        android:id="@+id/menu_reading"
+        app:showAsAction="ifRoom"
+        android:layout="@layout/custom_popup_menu_item"
+
+        />
+
+    <item android:title="Speaking"
+        app:showAsAction="ifRoom"
+        android:layout="@layout/custom_popup_menu_item"
+        android:id="@+id/menu_speaking"/>
+
+    <item android:title="Grammar"
+        app:showAsAction="ifRoom"
+        android:layout="@layout/custom_popup_menu_item"
+        android:id="@+id/menu_grammar"/>
+
+    <item android:title="Vocabulary"
+        app:showAsAction="ifRoom"
+        android:layout="@layout/custom_popup_menu_item"
+        android:id="@+id/menu_vocabulary"/>
+
+    <item android:title="More Listening"
+        app:showAsAction="ifRoom"
+        android:layout="@layout/custom_popup_menu_item"
+        android:id="@+id/menu_more_listening"/>
+</menu>

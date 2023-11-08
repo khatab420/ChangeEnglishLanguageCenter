@@ -1,0 +1,33 @@
+<resources>
+    <!-- Reply Preference -->
+    <string-array name="reply_entries">
+        <item>Reply</item>
+        <item>Reply to all</item>
+    </string-array>
+
+    <string-array name="reply_values">
+        <item>reply</item>
+        <item>reply_all</item>
+    </string-array>
+
+
+        ...
+        <string-array name="font_entries">
+            <item>Font 1</item>
+            <item>Font 2</item>
+            <item>Font 3</item>
+            <item>Font 4</item>
+            <item>Font 5</item>
+        </string-array>
+
+        <string-array name="font_values">
+            <item>font1</item>
+            <item>font2</item>
+            <item>font3</item>
+            <item>font4</item>
+            <item>font5</item>
+        </string-array>
+        ...
+
+
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/test_home"
+        android:title="test_Home"
+        />
+    <item android:id="@+id/test_setting"
+        android:title="Settting"
+        />
+
+</menu>

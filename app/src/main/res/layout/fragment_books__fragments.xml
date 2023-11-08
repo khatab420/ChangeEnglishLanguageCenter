@@ -1,0 +1,268 @@
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:columnCount="3"
+    android:rowCount="4"
+    android:alignmentMode="alignMargins"
+    android:columnOrderPreserved="false">
+
+    <!-- First Row -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewStartUp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="4dp"
+        app:cardUseCompatPadding="true">
+
+        <!-- ImageButton or ImageView for Start Up -->
+        <ImageButton
+            android:id="@+id/btn_start_up"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/startup"
+            android:scaleType="centerInside"
+            android:onClick="goToShowList"
+            android:background="@android:color/transparent"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewOpenUp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="4dp"
+        app:cardUseCompatPadding="true">
+
+        <!-- ImageButton or ImageView for Open Up -->
+        <ImageButton
+            android:id="@+id/btn_open_up"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/open_up"
+            android:scaleType="centerInside"
+            android:onClick="goToShowList"
+            android:background="@android:color/transparent"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewWarmUp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="4dp"
+        app:cardUseCompatPadding="true">
+
+        <!-- ImageButton or ImageView for Warm Up -->
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/warm_up"
+            android:scaleType="centerInside"
+            android:onClick="goToShowList"
+            android:id="@+id/btn_warm_up"
+            android:background="@android:color/transparent"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewRun_up"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="4dp"
+        app:cardUseCompatPadding="true">
+
+        <!-- ImageButton or ImageView for Start Up -->
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/run_up"
+            android:scaleType="centerInside"
+            android:onClick="goToShowList"
+            android:id="@+id/btn_run_up"
+            android:background="@android:color/transparent"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewRound_1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="4dp"
+        app:cardUseCompatPadding="true">
+
+        <!-- ImageButton or ImageView for Open Up -->
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/round_up"
+            android:scaleType="centerInside"
+            android:onClick="goToShowList"
+            android:id="@+id/btn_round_one"
+            android:background="@android:color/transparent"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewRound_2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="4dp"
+        app:cardUseCompatPadding="true">
+
+        <!-- ImageButton or ImageView for Warm Up -->
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/round_up_two"
+            android:scaleType="centerInside"
+            android:onClick="goToShowList"
+            android:id="@+id/btn_round_two"
+            android:background="@android:color/transparent"/>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewRound_3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="4dp"
+        app:cardUseCompatPadding="true">
+
+        <!-- ImageButton or ImageView for Start Up -->
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/round_up_three"
+            android:scaleType="centerInside"
+            android:onClick="goToShowList"
+            android:id="@+id/btn_round_three"
+            android:background="@android:color/transparent"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewRound_4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="4dp"
+        app:cardUseCompatPadding="true">
+
+        <!-- ImageButton or ImageView for Open Up -->
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/round_up_four"
+            android:scaleType="centerInside"
+            android:onClick="goToShowList"
+            android:id="@+id/btn_round_four"
+            android:background="@android:color/transparent"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewRound_5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="4dp"
+        app:cardUseCompatPadding="true">
+
+        <!-- ImageButton or ImageView for Warm Up -->
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/round_up_five"
+            android:scaleType="centerInside"
+            android:onClick="goToShowList"
+            android:id="@+id/btn_round_five"
+            android:background="@android:color/transparent"/>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewRound_6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="4dp"
+        app:cardUseCompatPadding="true">
+
+        <!-- ImageButton or ImageView for Start Up -->
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/round_up_six"
+            android:scaleType="centerInside"
+            android:onClick="goToShowList"
+            android:id="@+id/btn_round_six"
+            android:background="@android:color/transparent"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewPioneer"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="4dp"
+
+        app:cardUseCompatPadding="true">
+
+        <!-- ImageButton or ImageView for Open Up -->
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/pioneer"
+            android:scaleType="centerInside"
+            android:onClick="goToShowList"
+            android:id="@+id/btn_pioneer"
+            android:background="@android:color/transparent"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewPioneer_plus"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="4dp"
+        app:cardUseCompatPadding="true">
+
+        <!-- ImageButton or ImageView for Warm Up -->
+        <ImageButton
+            android:id="@+id/btn_pioneer_plus"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/pionner_plus"
+            android:scaleType="centerInside"
+            android:onClick="goToShowList"
+            android:background="@android:color/transparent"/>
+    </androidx.cardview.widget.CardView>
+
+</GridLayout>
+
+
+
+
